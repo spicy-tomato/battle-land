@@ -53,5 +53,19 @@
         "Temp/": true
     },
     "editor.tabSize": 4,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "cSpell.words": [
+        "Atrous",
+        "backface",
+        "Beachball",
+        "Beachchair",
+        "Denoiser",
+        "Groud",
+        "Lightmap",
+        "Lightmaps",
+        "MSAA",
+        "Occludee",
+        "Occluder",
+        "Skybox"
+    ]
 }
