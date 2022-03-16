@@ -7,7 +7,7 @@ namespace Platformer.Mechanics
     public class GameController : MonoBehaviour
     {
         public static GameController Instance { get; private set; }
-        public PlatformerModel model;
+        public PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         void OnEnable()
         {
