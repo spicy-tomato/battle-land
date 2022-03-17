@@ -11,7 +11,6 @@ namespace Platformer.Gameplay
         public override void Execute()
         {
             var player = model.player;
-            player.collider.enabled = true;
             player.controlEnabled = false;
             player.Teleport(model.spawnPoint.transform.position);
             model.camera.transform.position = new Vector3(
